@@ -1,6 +1,6 @@
 basic.forever(function () {
     if (true) {
-        pins.servoWritePin(AnalogPin.P2, 100)
+        pins.servoWritePin(AnalogPin.P2, 180)
     } else {
         pins.servoWritePin(AnalogPin.P2, 0)
     }
